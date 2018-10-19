@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Weather</title>
+</head>
+<body>
+
+<form method="post" action="weather">
+  <h2>City:</h2>
+  <input type="text" name="city" />
+
+  <p><select name="date" size="5">
+    <option value="d1">На сегодня</option>
+    <option value="d2">На завтра</option>
+    <option value="d3">На послезавтра</option>
+    <option value="d4">Через 2 дня</option>
+    <option value="d5">Через 3 дня</option>
+  </select>
+  <p><select name="unit" size="3">
+    <option value="s1">Celsius</option>
+    <option value="s2">Fahrenheit</option>
+    </select>
+  <input type="submit" value="Ok!" />
+</form>
+</body>
+</html>
